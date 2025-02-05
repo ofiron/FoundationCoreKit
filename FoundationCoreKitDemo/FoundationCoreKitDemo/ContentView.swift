@@ -19,11 +19,11 @@ struct ContentView: View {
             Text("Hello, world!")
 
             Button("Some action from package") {
-
-                textFromPackage = "?"
+                let number = Number(5.3)
+                textFromPackage = "\(number.underlineValue)"
             }
 
-            Text("The ? from package")
+            Text("The number value from package")
             Text(textFromPackage)
         }
         .padding()
