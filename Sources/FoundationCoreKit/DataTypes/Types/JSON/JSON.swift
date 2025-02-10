@@ -9,5 +9,5 @@
 import Foundation
 
 /// Represents a JSON object as a dictionary of key-value pairs.
-public typealias JSON = [String: Any]
+public typealias JSON = [String: any Any & Sendable]
 
