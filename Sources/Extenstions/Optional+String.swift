@@ -24,7 +24,7 @@ extension Optional where Wrapped == String {
     /// let nonEmptyString: String? = "Hello"
     /// print(nonEmptyString.isNilOrEmpty)  // false
     /// ```
-    var isNilOrEmpty: Bool {
+    public var isNilOrEmpty: Bool {
         self?.isEmpty ?? true
     }
 }
