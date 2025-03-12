@@ -1,5 +1,5 @@
 //
-//  CyclableEnumTest.swift
+//  CyclableEnumTests.swift
 //  FoundationCoreKit
 //
 //  Created by Ofir Ron on 07/03/2025.
